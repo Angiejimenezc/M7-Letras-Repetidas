@@ -6,8 +6,8 @@ function extraerEmail() {
   var dupli = str.match(expr);
   var noDupli = [];
 
-  dupli.forEach(function (e, index) {
-    var resultado = dupli[(e, index)];
+  dupli.forEach(function (el, index) {
+    var resultado = dupli[(el, index)];
     // console.log(valorB);
     if (noDupli.indexOf(resultado) < 0) {
       // console.log(sinDupli);

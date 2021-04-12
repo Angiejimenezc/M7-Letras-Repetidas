@@ -49,7 +49,6 @@ function Ejercicio3() {
 // Ejercicio 4
 
 function Ejercicio4() {
-
   let mi_nombre = "Angélica Jiménez Carrillo";
   console.log(Array.from(mi_nombre));
 }
@@ -64,14 +63,12 @@ function extraerEmail() {
   var dupli = str.match(expr);
   var noDupli = [];
 
-  dupli.forEach(function (e, index) {
-    var resultado = dupli[(e, index)];
-    
+  dupli.forEach(function (el, index) {
+    var resultado = dupli[(el, index)];
+
     if (noDupli.indexOf(resultado) < 0) {
-     
       noDupli.push(resultado);
-        console.log(resultado);
-        
+      console.log(resultado);
     }
   });
 }
